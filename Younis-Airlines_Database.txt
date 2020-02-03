@@ -1,0 +1,46 @@
+This Document contains the description of tables used in this project.
+All the name are Case Sensitive. Any change might result in error in query processing.
+
+If you are copying this project then please mention me in credits else stated otherwise.
+
+
+Peace Out.
+
+
+
+Database:younis_airlines
+-------------------------------
+Table : flight_schedule
+
+Departure:varchar(255)
+Arrival:varchar(255)
+Flight_no:varchar(255)
+Boarding_Time:varchar(255)
+Arrival_Time:varchar(255)
+Price:int(11)
+-------------------------------
+Table:web_checkin
+
+PNR:varchar(255)
+seat:varchar(255)
+food:varchar(255)
+-------------------------------
+Table:click
+flight_no:varchar(255)
+-------------------------------
+Table:customer_ticket
+
+cus_name:varchar(255)
+flight_id:varchar(255)
+departure:varchar(255)
+arrival:varchar(255)
+date:date
+boarding_time:varchar(255)
+arrival_time:varchar(255)
+Price:int(11)
+PNR:varchar(255)
+-------------------------------
+Table:TRAVEL_DATA
+
+PASS_NO:int(11)
+PASS_DATE:date
